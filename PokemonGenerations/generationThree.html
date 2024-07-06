@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body onload="getPokemonData()">
+    <header>
+        <a href="../index.html">
+            <h1 class="head-title">Pokemon Sprite Gallery</h1>
+        </a>
+        <div class="search">
+            <form action="">
+                <input type="text" placeholder="Enter Pokemon">
+            </form>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-card">
+            <h1 class="title">Generation 1</h1>
+            <div class="generation-nav-bar">
+                <span><a href="./generationOne.html?gen=2">Generation 2 </a></span>
+                <span><a href="./generationFour.html?gen=4">Generation 4 </a></span>
+            </div>
+            <div class="intro-text">
+                Click on Pokemon image to see thier front and back sprites as well as thier shiny sprite.
+            </div>
+            <div class="sprite-container"></div>
+        </div>
+    </main>
+    <footer>
+        <p> Pokémon images &amp names © 1995-2024 Nintendo/Game Freak.</p>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+
+</html>
